@@ -1,6 +1,6 @@
 @charset "utf-8";
 *{
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     text-align: center;
     list-style: none;
@@ -154,17 +154,17 @@ a{
                position: relative;
            }
             #navdiv{
-                width:1000px;
-                height:340px;
+                width:0px;
+                height:0px;
                 padding-left:50px ;
                 padding-right:50px ;
-                border:solid 1px orangered;
-                border-top:none;
                 text-align:left ;
-                display: none;
+//              display: none;
                 z-index: 999;
                 position: absolute;
                 background:white;
+                overflow: hidden;
+                 transition: all 1s;
             }
             #navdiv a{
                 cursor:pointer;
@@ -178,6 +178,8 @@ a{
                 width:160px;
                 height:200px;
                 border-bottom: solid 2px #ccc;
+                border-top: solid 2px #ccc;
+                padding-top:30px;
             }
             #navdiv ul li{
                 height:30px;
@@ -190,11 +192,16 @@ a{
                 text-align:left;
             }
             #nav_li:hover #navdiv{
-                display: block;
+//              display: block;
+                 height: 340px;
+                 width: 1000px;
+                transition: all 1s;
+                border:solid 1px orangered;
+                border-top:none;
             }
             #navdiv a:hover{
                 color: orangered;
-                background: #fff;
+                background: #fff;  
             }
 //              轮播图
             #banner{
@@ -203,4 +210,128 @@ a{
                 overflow: hidden;
                 position:relative;
                 cursor: pointer;
+            }
+            
+            
+            //尾部
+    #bottom,#bottom1{
+                width: 1181px;
+                float: left;
+                margin-left:10px ;
+            }
+            #bottom li{
+                margin: 10px;
+                width: 294px;
+                height: 150px;
+                float: left;
+                margin:50px 0px;   
+                border-right: 1px solid #CFCFCF;  
+                }
+            #bottom p{
+                float: left;
+                width: 45px;
+                height: 45px;
+                margin-top:60px ;
+                margin-left:85px ;
+                font-size: 30px;
+                border: solid 2px orangered;
+                border-radius:50% ;
+                color: orangered;
+            }
+            #bottom h3{
+                display:block;
+                width: 150px;
+                height: 80px;
+                float: right;
+                text-align: left;
+                line-height: 150px;
+                color: orangered;
+            }
+            #bottom span{
+                display: block;
+                float: right;
+                width: 150px;
+                text-align: left;
+                padding-top:10px ;
+                font-size:12px ;
+            }
+            #bottom .rigth{
+                 border: none;
+            }
+            #bottom1{
+                height: 220px;
+                border:solid 1px #ccc ;
+                }
+            #bottom1 dl{
+                margin:30px 0;
+                float: left;
+                width: 232px;
+                height: 160px;
+                border-right: solid 1px #ccc;
+                
+            }
+            #bottom1 dd {
+                padding-top:20px ;
+                font-size:12px ;
+            }
+            #bottom1 .rigth{
+                border:none ;
+            }
+            #bottom1 a:hover{
+                color:orangered;
+            }
+            
+            #foot{
+                float: left;
+                margin:10px ;
+                width: 1181px;
+                height: 150px;
+            }
+            #foot img{
+                float: left;
+            }
+            #foot .footleft,#foot .footcenter,#foot .footright{
+                margin-top:50px ;
+                margin-left:150px ;
+                float: left;
+                display: inline-block;
+                width: 130px;
+                height: 40px;
+                line-height: 40px;
+                border-right:solid 2px red ;
+            }
+            #foot .footleft{
+                margin-top:60px ;
+            }
+            #foot .footcenter{
+                margin-left: 20px;
+                border: none;
+            }
+            #foot .footright{
+                width: 50px;
+                height:50px;
+                margin-top:55px ;
+                margin-left: 1px;
+                border: none;
+            }
+            #foot .footfoot{
+                display:inline-block;
+                margin-top:10px ;
+                font-size: 14px;
+                padding: 0px 5px ;
+            }
+            #foot .foott{
+                text-align: left;
+                width: 560px;
+                height: 50px;
+                position: absolute;
+                left: 500px;
+                margin-top:50px ;
+            }
+            #foot .footfoot:hover{
+                color: orangered;
+            }
+            #foot p{
+                text-align: left;
+                font-size:14px ;
             }
