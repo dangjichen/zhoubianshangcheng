@@ -1,5 +1,5 @@
    
-    #middle{
+            #middle{
                 width: 1200px;
                 height:170px;
             }
@@ -15,15 +15,13 @@
                 display: inline-block;
                 padding: 8px;
             }
-            
             #middle2{
                 width: 1200px;
             }
             #middle2 a{
                 display: inline-block;
                 width: 100px;
-                height: 30px;
-                
+                height: 30px;   
             }
             #middle2 #a1{
                 float: left;
@@ -75,8 +73,7 @@
             #dl1 a{
                 display: inline-block;
                 width:278px;
-            }   
-            
+            }  
             #dl1 .dd{
                 width: 50px;
                 height: 20px;
@@ -94,6 +91,7 @@
                 padding-left:10px ;
                 text-decoration:line-through;
             }
+            
            #middle3,#middle4,#middle5,#middle6,#middle7{
                 float: left;
                 width: 1200px;
@@ -130,7 +128,6 @@
             #middle3 .center{
                 margin: 12px;
             }
-            
             #middle4 img{
                 float: left;
                 margin-left: 10px;
@@ -139,7 +136,7 @@
                 margin:10px 19px 0px 10px;
             }
             #middle4 .center1{
-                margin:10px 19px 0px 10px;
+                margin:10px 0px 0px 20px;
             }
             
             #middle5 img{
@@ -150,9 +147,8 @@
                 margin:10px 19px 0px 10px;
             }
             #middle5 .center1{
-                margin:10px 19px 0px 10px;
+                margin:10px 0px 0px 20px;
             }
-            
             #middle6 img{
                 float: left;
                 margin-left: 10px;
@@ -161,9 +157,8 @@
                 margin:10px 19px 0px 10px;
             }
             #middle6 .center1{
-                margin:10px 19px 0px 10px;
+                margin:10px 0px 0px 20px;
             }
-            
             #middle7 img{
                 float: left;
                 margin-left: 10px;
@@ -172,7 +167,7 @@
                 margin:10px 19px 0px 10px;
             }
             #middle7 .center1{
-                margin:10px 19px 0px 10px;
+                margin:10px 0px 0px 20px;
             }
             #dl1{
                 float: left;
